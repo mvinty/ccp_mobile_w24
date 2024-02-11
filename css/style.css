@@ -16,10 +16,11 @@ main {
     padding-bottom: 50px;
 }
 .skip {
-    display: hidden;
+    position: absolute;
+    left: -1000px;
 }
 .skip:focus {
-    display: visible;
+    left: 10px;
 }
 nav {
     position: fixed;
