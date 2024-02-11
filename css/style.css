@@ -114,3 +114,11 @@ nav ul li:hover {
     justify-content: center;
     align-content: center;
 }
+@media (prefers-reduced-motion: reduce) {
+    img {
+      animation: none;
+    }
+    nav ul li:hover {
+        transition: none;
+    }
+  }
